@@ -35,7 +35,6 @@
 # 📖 [Movies] <a name="about-project"></a>
 
 **Setting Up A React App**
-# 📖 [project presentation](https://youtu.be/lAMemCTVB4A)
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -51,9 +50,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[List movies fromt the api]**
-- **[show and add comments and likes]**
-- **[ Show and add reserversations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
