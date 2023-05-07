@@ -34,7 +34,7 @@
 
 # 📖 [Magic Math] <a name="about-project"></a>
 
-**Setting Up A React App**
+**Math magicians is a website for all fans of mathematics, It is a Single Page App (SPA) that allows users to make simple calculations and, read a random math-related quote.**
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -47,6 +47,9 @@
 
 
 <!-- Features -->
+- Allows users to make simple mathematical calculations
+- Single Page React App
+- Unsing Big.js
 
 ### Key Features <a name="key-features"></a>
 
