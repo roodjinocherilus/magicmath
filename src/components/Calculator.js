@@ -1,28 +1,31 @@
 import React, { useState } from 'react';
 import './calculator.css';
 import Button from './Button';
+import calculate from '../logic/calculate';
 
 function Calculator() {
-  const [displayValue, setDisplayValue] = useState('0');
+  const [displayValue, setDisplayValue] = useState({ total: null, next: null, operation: null });
 
-  function handleButtonClick(value) {
-    setDisplayValue(value);
+  function handleButtonClick(buttonName) {
+    setDisplayValue(calculate(displayValue, buttonName));
   }
+
+  const valueToDisplay = displayValue.next || displayValue.total || '0';
 
   return (
     <div className="calculator">
       <div className="display">
-        <span>{displayValue}</span>
+        <span>{valueToDisplay}</span>
       </div>
       <div className="buttons">
-        <Button label="AC" onClick={() => handleButtonClick('0')} />
+        <Button label="AC" onClick={() => handleButtonClick('AC')} />
         <Button label="+/-" onClick={() => handleButtonClick('-')} />
         <Button label="%" onClick={() => handleButtonClick('%')} />
-        <Button label="/" className="yellow" onClick={() => handleButtonClick('/')} />
+        <Button label="/" className="yellow" onClick={() => handleButtonClick('÷')} />
         <Button label="7" onClick={() => handleButtonClick('7')} />
         <Button label="8" onClick={() => handleButtonClick('8')} />
         <Button label="9" onClick={() => handleButtonClick('9')} />
-        <Button label="X" className="yellow" onClick={() => handleButtonClick('X')} />
+        <Button label="X" className="yellow" onClick={() => handleButtonClick('x')} />
         <Button label="4" onClick={() => handleButtonClick('4')} />
         <Button label="5" onClick={() => handleButtonClick('5')} />
         <Button label="6" onClick={() => handleButtonClick('6')} />
