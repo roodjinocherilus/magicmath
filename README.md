@@ -47,12 +47,11 @@
 
 
 <!-- Features -->
-- Allows users to make simple mathematical calculations
-- Single Page React App
-- Unsing Big.js
 
 ### Key Features <a name="key-features"></a>
-
+- Allows users to make simple mathematical calculations
+- Single Page React App
+- Using Big.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
