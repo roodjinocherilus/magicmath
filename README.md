@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>React Setup</b></h3>
+  <h3><b>Magic Math</b></h3>
 
 </div>
 
