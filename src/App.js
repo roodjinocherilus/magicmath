@@ -1,7 +1,10 @@
-import Calculator from "./components/Calculator" ; // Import Calculator component
+import Calculator from './components/Calculator'; // Import Calculator component
 
 function App() {
   return (
-    <Calculator />
+    <div className="App">
+      <Calculator />
+    </div>
   );
 }
+export default App;

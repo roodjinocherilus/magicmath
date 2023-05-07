@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Calculator from './calculator';
+import App from './App'; // Import Calculator component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

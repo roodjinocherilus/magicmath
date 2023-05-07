@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Movies] <a name="about-project"></a>
+# 📖 [Magic Math] <a name="about-project"></a>
 
 **Setting Up A React App**
 
