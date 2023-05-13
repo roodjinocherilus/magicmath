@@ -52,6 +52,7 @@
 - Allows users to make simple mathematical calculations
 - Single Page React App
 - Using Big.js
+- Random Quote Generator
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
