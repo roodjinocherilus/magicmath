@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Routes, Route, Link,
+} from 'react-router-dom';
 import Calculator from './components/Calculator';
 import QuoteDisplay from './components/Quotes';
 import Home from './components/Home';
@@ -22,17 +24,11 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
-          <Route path="/calculator">
-            <Calculator />
-          </Route>
-          <Route path="/quote">
-            <QuoteDisplay />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<QuoteDisplay />} />
+        </Routes>
       </div>
     </Router>
   );
