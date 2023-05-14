@@ -1,0 +1,17 @@
+.home {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .home h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home p {
+    font-size: 16px;
+  }
+  

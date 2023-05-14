@@ -5,6 +5,7 @@ import {
 import Calculator from './components/Calculator';
 import QuoteDisplay from './components/Quotes';
 import Home from './components/Home';
+import './App.css';
 
 function App() {
   return (
