@@ -1,14 +1,22 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
   padding: 20px;
 }
 
-nav {
+/* nav {
   background-color: #333;
   color: #fff;
   padding: 10px;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  display: flex;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -20,9 +28,9 @@ nav ul {
 
 nav li {
   margin-right: 10px;
-}
+} */
 
-nav a {
+/* nav a {
   color: #fff;
   text-decoration: none;
   padding: 5px;
@@ -30,4 +38,4 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
+} */
