@@ -1,36 +1,35 @@
 .navbar {
-    position: sticky;
-    top: 0;
-    background-color: #f8f8f8;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end; /* Align elements to the right */
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar ul li {
-    margin-left: 10px; /* Adjust the margin between elements */
-  }
-  
-  .navbar ul li:first-child {
-    margin-right: 972px; /* Remove margin for the first element */
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .logo {
-    font-weight: bold;
-    font-size: 40px;
-    margin-right: auto; /* Push the logo to the left */
-  }
-  
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align elements to the right */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 10px; /* Adjust the margin between elements */
+}
+
+.navbar ul li:first-child {
+  margin-right: 972px; /* Remove margin for the first element */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: auto; /* Push the logo to the left */
+}
